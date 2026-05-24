@@ -16,4 +16,6 @@ func main() {
 	f.Printf("Is -121 a palindrome? %v\n", isPalindrome(-121))
 	f.Printf("Is 10 a palindrome? %v\n", isPalindrome(10))
 
+	//Print the duplicates in the list
+
 }
