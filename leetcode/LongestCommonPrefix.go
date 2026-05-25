@@ -16,7 +16,7 @@ func longestCommonPrefix(strs []string) string {
 	return prefix
 }
 
-// This is not the solution, but it's just a program to print the duplicates in the list.
+// This is not the solution, but it's just a program to print the duplicates in a list: not this list btw.
 func printDuplicates(nums []int) []int {
 	duplicates := []int{}
 	for _, number := range nums {
