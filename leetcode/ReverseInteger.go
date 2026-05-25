@@ -22,7 +22,7 @@ func reverse(x int) int {
 }
 
 // Another alternative solution using string manipulation technique to reverse the integer. It converts the integer to a string, reverses the string, and then converts it back to an integer. It also handles the negative sign and checks for overflow conditions.
-func reverse(x int) int {
+func reverse2(x int) int {
 	str := strconv.Itoa(x)
 	reversedStr := ""
 	for i := len(str) - 1; i >= 0; i-- {
